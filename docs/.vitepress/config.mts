@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LetAiCode",
   description: "AI 辅助编程与大模型开发指南",
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
+    logo: '/logo.png',
     // 顶部导航栏
     nav: [
       { text: '首页', link: '/' },
