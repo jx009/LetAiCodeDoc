@@ -1,6 +1,6 @@
 <div align="center">
 
-# LetAiCode — Vibe Coding 教程全集
+# Vibe.LetAiCode — Vibe Coding 教程全集
 
 **零基础学 AI 编程 · 从入门到实战 · 中文最全 Vibe Coding 教程**
 
