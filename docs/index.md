@@ -3,27 +3,27 @@ layout: home
 
 hero:
   name: "LetAiCode"
-  text: "AI 编程与大模型开发指南"
-  tagline: "掌握 AI 时代的编程新范式，从 Prompt 到 Agent 全栈进阶"
+  text: "Vibe Coding 教程全集"
+  tagline: "基于新版教程全集整理，覆盖基础入门、AI 编程工具、实战案例与 Skill。"
   actions:
     - theme: brand
-      text: "开始学习"
-      link: /llm/
+      text: "从基础入门开始"
+      link: /基础入门/
     - theme: alt
-      text: "AI 工具箱"
-      link: /tools/
+      text: "查看工具教程"
+      link: /AI编程工具/
 
 features:
-  - title: 大模型基础
-    details: 深入理解 Transformer、LLM 训练与微调、RAG 检索增强生成...
-    icon: 🤖
-  - title: 提示词工程
-    details: 掌握 CoT、Few-Shot、结构化 Prompt，让 AI 更懂你的需求...
-    icon: 💡
-  - title: AI 编程实战
-    details: 精通 Cursor、Copilot、Devin，提升 10 倍编码效率...
+  - title: 基础入门
+    details: 从 Vibe Coding 概念到提示词、调试、MVP、版本控制的完整入门路径。
+    icon: 📘
+  - title: AI 编程工具
+    details: 收录 Codex 与 Claude Code 两套从安装到进阶的完整教程。
+    icon: 🛠️
+  - title: 实战案例
+    details: 番茄钟、天气工具、作品集、记忆翻牌四个完整案例。
     icon: 🚀
-  - title: Agent 开发
-    details: LangChain、AutoGPT、多智能体协作，构建自主 AI 应用...
+  - title: Skill 相关
+    details: 理解 Skill、安装使用、开源推荐与自定义创建。
     icon: 🧩
 ---
