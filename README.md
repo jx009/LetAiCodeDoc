@@ -7,7 +7,7 @@
 [![VitePress](https://img.shields.io/badge/Built%20with-VitePress-646CFF?logo=vitepress)](https://vitepress.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
-🌐 [在线阅读](https://letaicode.com) · 📘 [基础入门](#-基础入门) · 🛠️ [AI 编程工具](#%EF%B8%8F-ai-编程工具教程) · 🚀 [实战案例](#-实战案例) · 🧩 [Skill 指南](#-skill-指南)
+🌐 [在线阅读](https://vibe.letaicode.cn) · 📘 [基础入门](#-基础入门) · 🛠️ [AI 编程工具](#%EF%B8%8F-ai-编程工具教程) · 🚀 [实战案例](#-实战案例) · 🧩 [Skill 指南](#-skill-指南)
 
 </div>
 
@@ -85,58 +85,6 @@
 - 优秀开源 Skill 推荐
 - 如何创建自己的 Skill
 
-## 🚀 快速开始
-
-### 环境要求
-
-- [Node.js](https://nodejs.org/) >= 18
-- npm / yarn / pnpm
-
-### 本地运行
-
-```bash
-# 克隆项目
-git clone https://github.com/jx009/LetAiCodeDoc.git
-cd LetAiCodeDoc
-
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run docs:dev
-```
-
-启动后访问 `http://localhost:5173` 即可在本地阅读全部教程。
-
-### 构建部署
-
-```bash
-# 构建静态文件
-npm run docs:build
-
-# 本地预览构建结果
-npm run docs:preview
-```
-
-构建产物位于 `docs/.vitepress/dist` 目录，可部署到任意静态托管服务（Vercel、Netlify、GitHub Pages 等）。
-
-## 🤝 参与贡献
-
-欢迎通过以下方式参与贡献：
-
-1. **提交 Issue** — 报告错误、提出建议或请求新内容
-2. **提交 PR** — Fork 本仓库，修改后提交 Pull Request
-3. **分享传播** — 将本教程分享给更多需要的人
-
-### 贡献指南
-
-- 文档使用 Markdown 编写，存放在 `docs/` 目录下
-- 站点基于 [VitePress](https://vitepress.dev/) 构建，配置文件为 `docs/.vitepress/config.mts`
-- 请确保新增内容符合现有的目录结构和命名规范
-
-## 📄 License
-
-本项目基于 [MIT License](LICENSE) 开源。
 
 ## ⭐ Star History
 
