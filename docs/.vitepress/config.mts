@@ -4,7 +4,20 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'LetAiCode',
   description: 'Vibe Coding 教程全集',
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    [
+      'script',
+      {},
+      `var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3adb9b1b1ab8b80d3d4b6634c33ed0db";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();`
+    ]
+  ],
   themeConfig: {
     logo: '/logo.png',
     nav: [
